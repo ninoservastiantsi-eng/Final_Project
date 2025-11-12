@@ -40,10 +40,12 @@ if charachters > 3:
 print(f"Password has {str(charachters)} different character types, adding {str(charachters -1)} points!")
 
 if score < 4:
-    print(f"Your password is very weak! Score: {str(score)} / 10")
+    print(f"Your password is very weak, please try again! Score: {str(score)} / 10")
 elif score == 4:
-    print(f"Your password is weak! Score: {str(score)} / 10")
+    print(f"Your password is weak, try again! Score: {str(score)} / 10")
 elif score == 5:
     print(f"Your password is moderately secure! Score: {str(score)} / 10")
 elif score == 6:
     print(f"Your password is strong and secure! Score: {str(score)} / 10")
+
+    
